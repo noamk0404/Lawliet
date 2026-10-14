@@ -1,0 +1,7 @@
+# Optional in-process libraries are invoked in isolated parser workers.
+# Tested with LIEF 1.0.0 and dnfile 0.18.0 on Windows / Python 3.14.
+lief>=1.0,<2
+dnfile>=0.18,<1
+
+# Install Detect It Easy, capa, and FLOSS separately from their official releases.
+# Pass the tool's executable path to --die, --capa, or --floss.
